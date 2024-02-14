@@ -116,6 +116,7 @@
     <main>
       <article>
         <!-- insert iframe from youtube -->
+        <iframe width width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -127,7 +128,13 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img srcset="images/FirefoxLogog120.png 120w,
+                        images/FirefoxLogo400.png 400w,
+                        images/firefox_logo-only_RGB.png 1200w"
+                    sizes="(max-width: 400px) 120px,
+                           (max-width: 1200px) 400px,
+                           1200px"    
+                    src="Images/firefox_logo-only_RGB.png" alt="Mozilla Firefox Logo"    >
         </a>
         <a href="https://www.mozilla.org/">
           <img>
