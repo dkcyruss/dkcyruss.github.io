@@ -70,3 +70,43 @@
   section > h2 + p {
     text-indent: 30px;
   }
+
+  a:link, a:focus {
+    color:#a66;
+  }
+
+a:visited {
+  color: blue;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  a:active {
+   color: blue;
+  }
+
+  a {
+    outline: none;
+  }
+
+  a[href^="http"] {
+    background: url('https://mdn.github.io/learning-area/css/styling-text/typesetting-a-homepage-start/external-link-52.png') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
+
+  aside > h2 + ul {
+    line-height: 25px;
+    list-style-type: square;
+  }
+
+nav > ul > li {
+  border: solid 1px #a66;
+  padding: 10px 10px;
+  margin: 20px 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
