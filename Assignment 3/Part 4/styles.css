@@ -61,3 +61,16 @@ body {
       float: left;
       margin-right: 1.2em;
   }
+  @media screen and (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .photos {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 0.5em;
+    }
+  }
+  
+
+  
