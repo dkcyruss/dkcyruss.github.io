@@ -51,16 +51,15 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
+    
   }
 
   .feature {
-      width: 200px;
-      float: left;
-      margin-right: 1.2em;
+    width: 200px;
+    float: left;
+    margin-right: 1.2em;
   }
+  
   @media screen and (max-width: 900px) {
     .grid {
       grid-template-columns: 1fr;
@@ -72,5 +71,25 @@ body {
     }
   }
   
-
+  @media screen and (max-width: 560px) {
+    nav ul {
+      display: block;
+    }
+  
+    nav li {
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 4px;
+    }
+  
+    nav {
+      position: static;
+    }
+  
+    .feature {
+      width: auto;
+      float: none;
+      margin: 0 auto;
+    }
+  }
   
